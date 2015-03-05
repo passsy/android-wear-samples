@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WearHackathon</string>
+    <string name="title_activity_wear_data_api">WearDataApiActivity</string>
 </resources>
