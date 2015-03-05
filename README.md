@@ -1,6 +1,8 @@
 # android-wear-samples
 samples for android wear APIs for the Hackathon in Cologne 5.3.15 http://hackathon.mobile.cologne/
 
+[![Build Status](https://travis-ci.org/passsy/android-wear-samples.svg?branch=master)](https://travis-ci.org/passsy/android-wear-samples)
+
 ## Sample Apis:
 
 #### Wear Message API
