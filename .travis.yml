@@ -26,7 +26,8 @@ android:
 before_script:
 
   # First assemble the project before launching the emulator
-  # - ./WearHackathon/gradlew assemble
+  # - cd WearHackathon
+  # - ./gradlew assemble
 
   # Emulator Management: Create, Start and Wait
   # the emulator is currently not needed
@@ -37,4 +38,5 @@ before_script:
 
 script:
   # build all variants, mobile and wear
-  - ./WearHackathon/gradlew assemble
+  - cd WearHackathon
+  - ./gradlew assemble
