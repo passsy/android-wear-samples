@@ -36,4 +36,5 @@ before_script:
   # - adb shell input keyevent 82 &
 
 script:
+  # build all variants, mobile and wear
   - ./WearHackathon/gradlew assemble
