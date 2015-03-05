@@ -3,11 +3,13 @@ samples for android wear APIs for the Hackathon in Cologne 5.3.15 http://hackath
 
 ## Sample Apis:
 
-#### Wear Message API (https://developer.android.com/training/wearables/data-layer/messages.html)
+#### Wear Message API
+(https://developer.android.com/training/wearables/data-layer/messages.html)
 - send a message to the wearable to open an activity
 - send a message from wear to the handset to show a toast
 
-#### Wear Data API (https://developer.android.com/reference/com/google/android/gms/wearable/DataApi.html)
+#### Wear Data API
+(https://developer.android.com/reference/com/google/android/gms/wearable/DataApi.html)
 - use the shared data store to increase a counter from smartphone and wearable simultaneously
 
 
