@@ -6,17 +6,17 @@ import com.google.android.gms.wearable.MessageEvent;
 import com.google.android.gms.wearable.Wearable;
 import com.google.android.gms.wearable.WearableListenerService;
 
+import android.content.Intent;
 import android.util.Log;
-import android.widget.Toast;
 
 import java.util.concurrent.TimeUnit;
 
 /**
  * Created by pascalwelsch on 3/4/15.
  */
-public class WearMessageApiService extends WearableListenerService {
+public class MessageApiService extends WearableListenerService {
 
-    private static final String TAG = WearMessageApiService.class.getSimpleName();
+    private static final String TAG = MessageApiService.class.getSimpleName();
 
     private GoogleApiClient mGoogleApiClient;
 
@@ -40,8 +40,10 @@ public class WearMessageApiService extends WearableListenerService {
 
         final String path = messageEvent.getPath();
         switch (path) {
-            case "/hello":
-                Toast.makeText(this, new String(messageEvent.getData()), Toast.LENGTH_SHORT).show();
+            case "/open":
+                final Intent intent = new Intent(this, MessageApiActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(intent);
                 break;
             default:
                 Log.v(TAG, "message for path " + path + " not handled");
