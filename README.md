@@ -1,7 +1,8 @@
 # android-wear-samples
 samples for android wear APIs for the Hackathon in Cologne 5.3.15 http://hackathon.mobile.cologne/
 
-Here is the Presentation: https://docs.google.com/presentation/d/1b9MAv5EnrDyrDd_Q_L2ing1ylJwCLA95QypmVNpdp9A/edit?usp=sharing
+Here is the Presentation:
+
 [![Imgur](http://i.imgur.com/Ajv9eQfl.png)](https://docs.google.com/presentation/d/1b9MAv5EnrDyrDd_Q_L2ing1ylJwCLA95QypmVNpdp9A/edit?usp=sharing)
 
 [![Build Status](https://travis-ci.org/passsy/android-wear-samples.svg?branch=master)](https://travis-ci.org/passsy/android-wear-samples)
